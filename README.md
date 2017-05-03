@@ -2,9 +2,10 @@
 
 Installation steps to mount belle repo in local machine.
 
-## Prequeist 
+## Prerequisite 
 
 1. Squid proxy server with the basic settings 
+
 ### squid listen ports
 http_port 3128
 ### set up file system (use aufs or ufs) and directory for caching files, 50000 is disk space in MB which can be used for caching files. 
