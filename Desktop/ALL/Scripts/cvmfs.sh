@@ -5,7 +5,7 @@ echo Please install epel repository
 exit
 fi
 
-proxy_ip=172.16.14.1
+proxy_ip=<server_ip>
 export http_proxy=http://${proxy_ip}:3128
 
 wget http://cvmrepo.web.cern.ch/cvmrepo/yum/cernvm.repo -O /etc/yum.repos.d/cernvm.repo
